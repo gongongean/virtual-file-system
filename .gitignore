@@ -1,0 +1,44 @@
+*.log
+.DS_Store
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+/.codex
+/.cursor/
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+/node_modules
+/public/build
+/public/fonts-manifest.dev.json
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+_ide_helper.php
+Homestead.json
+Homestead.yaml
+Thumbs.db
+
+# Temporary backup and testing files
+*.indexed-backup
+external-fragmentation-test.txt
+fragment-*.txt
+fragment-fill.bin
+linked-content-test.txt
+test-*.txt
+
+# Local PHP diagnostic files
+/public/openssl-check.php
+/public/php-extension-check.php
+
+# Additional local-only files
+*.indexed-backup
+external-fragmentation-test.txt
+fragment-fill.bin
